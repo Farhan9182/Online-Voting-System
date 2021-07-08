@@ -1,0 +1,105 @@
+[October 8, 2020, 1:46 am] admin Login Successful. 
+[October 8, 2020, 1:49 am] INSERT INTO party (Party_ID, Name, Symbol) VALUES ('P-123', 'Congress', 'P-123.jpg')
+[October 8, 2020, 1:50 am] INSERT INTO party (Party_ID, Name, Symbol) VALUES ('P-456', 'Bhartiya Janta Party', 'P-456.jpg')
+[October 8, 2020, 1:51 am] INSERT INTO party (Party_ID, Name, Symbol) VALUES ('P-789', 'Samajvadi Party', 'P-789.jpg')
+[October 8, 2020, 1:53 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-123','Rahul Gandhi', 'CAN-123.jpg', 'P-123', 'A789')
+[October 8, 2020, 1:54 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-456','Narendra Modi', 'CAN-456.jpg', 'P-456', 'A789')
+[October 8, 2020, 1:56 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-789','Akhilesh Yadav', 'CAN-789.jpg', 'P-789', 'A789')
+[October 8, 2020, 2:00 am] INSERT INTO executives (Username, Pass, Name, Contact_No, Address, Part_No, Image) VALUES ('EX-123', 'ABC123456', 'Aman Dixit', '9835559968', 'New Park Street, Kolkata-79000', 'A789', 'EX-123.jpg')
+[October 8, 2020, 2:04 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-123', 'ABC123456', 'Virat Kohli', 'Dinesh Kohli', 'Male', '1998-01-05', 'Ram Mandir, New Street, Lucknow', 'A789', 'Lucknow', 'YHX-123.jpg')
+[October 8, 2020, 2:21 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-456', 'ABC23456', 'Rohit Sharma', 'Akhil Sharma', 'Male', '1998-02-08', 'Ring Road, Mumbai-200065', 'A789', 'Mumbai', 'YHX-456.jpg')
+[October 8, 2020, 2:25 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-789', 'ABC123456', 'Hardik Pandya', 'Karan Pandya', 'Male', '1998-01-08', 'New Street, Mumbai-200062', 'A789', 'Mumbai', 'YHX-789.jpg')
+[October 8, 2020, 2:29 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-0123', 'ABC123456', 'Krunal Pandya', 'Karan Pandya', 'Male', '1998-01-11', 'New Park Street, Mumbai-200034', 'A789', 'Mumbai', 'YHX-0123.jpg')
+[October 8, 2020, 2:31 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-0456', 'ABC123456', 'Mahendra SIngh Dhoni', 'Shekhar Singh', 'Male', '1998-06-08', 'New Global Road', 'A789', 'Mumbai', 'YHX-0456.jpg')
+[October 8, 2020, 2:37 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-007', 'ABC123456', 'KL Rahul', 'Kumar Shankar', 'Male', '1965-01-15', 'Doddathoguru, Bengaluru-560100', 'A789', 'Bengaluru', 'YHX-007.jpg')
+[October 8, 2020, 2:49 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-001', 'ABC123456', 'Jasprit Bumrah', 'Lokesh Bumrah', 'Male', '1998-01-15', 'Electronic City Phase 1, Bangalore -560100', 'A789', 'Bengaluru', 'YHX-001.jpg')
+[October 8, 2020, 2:53 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-99123', 'ABC123456', 'Rishabh Pant', 'Karan Pant', 'Male', '1998-01-09', 'Sarojini, New Delhi-40066', 'A456', 'New Delhi', 'YHX-99123.jpg')
+[October 8, 2020, 2:57 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-99456', 'ABC123456', 'Yuzvendra Chahal', 'Ravindra Chahal', 'Male', '1998-01-20', 'Rajwara Hotel, Rajasthan', 'A456', 'Rajashtan', 'YHX-99456.jpg')
+[October 8, 2020, 2:59 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-0123','Sonia Gandhi', 'CAN-0123.jpg', 'P-123', 'A456')
+[October 8, 2020, 3:00 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-0456','Amit Shah', 'CAN-0456.jpg', 'P-456', 'A456')
+[October 8, 2020, 3:01 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-0789','Mulayam SIngh Yadav', 'CAN-0789.jpg', 'P-789', 'A456')
+[October 8, 2020, 3:04 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-9123','Shashi Tharoor', 'CAN-9123.jpg', 'P-123', 'A234')
+[October 8, 2020, 3:06 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-9456','Yogi Aditya Nath', 'CAN-9456.jpg', 'P-456', 'A234')
+[October 8, 2020, 3:08 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-9789','Dimple Yadav', 'CAN-9789.jpg', 'P-789', 'A234')
+[October 8, 2020, 3:10 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-00123','Navjot Singh Sidhu', 'CAN-00123.jpg', 'P-123', 'A123')
+[October 8, 2020, 3:13 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-00456','Manoj Tiwari', 'CAN-00456.jpg', 'P-456', 'A123')
+[October 8, 2020, 3:15 am] INSERT INTO candidates (ID, Name, Image, Party_ID, Part_No) VALUES ('CAN-00789','Kanhaiya Kumar', 'CAN-00789.jpg', 'P-789', 'A123')
+[October 8, 2020, 3:22 am] INSERT INTO executives (Username, Pass, Name, Contact_No, Address, Part_No, Image) VALUES ('EX-456', 'ABC123456', 'Mehta Ji', '9771122544', 'New Town, Rajasthan', 'A456', 'EX-456.jpg')
+[October 8, 2020, 3:24 am] INSERT INTO executives (Username, Pass, Name, Contact_No, Address, Part_No, Image) VALUES ('EX-789', 'ABC123456', 'Kumar Verma', '9835559968', 'Gorakhpur, Uttar Pradesh', 'A234', 'EX-789.jpg')
+[October 8, 2020, 3:28 am] INSERT INTO executives (Username, Pass, Name, Contact_No, Address, Part_No, Image) VALUES ('EX-0123', 'ABC123456', 'Sanjay SIngh', '9681544699', 'Orion Town, Orissa-445621', 'A123', 'EX-0123.jpg')
+[October 8, 2020, 3:55 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-0789', 'ABC123456', 'Ravindra Jadeja', 'Suresh Jadeja', 'Male', '1998-01-21', 'Rajgir, Uttar Pradesh-245365', 'A456', 'Agra', 'YHX-0789.jpg')
+[October 8, 2020, 3:59 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-00123', 'ABC123456', 'Mohammed Shami', 'Mohammed Kaif', 'Male', '1997-01-18', 'Karol Bagh, Andhra Pradesh-225466', 'A456', 'Hyderabad', 'YHX-00123.jpg')
+[October 8, 2020, 4:21 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-00456', 'ABC123456', 'Dinesh Kartik', 'Ramesh Kartik', 'Male', '1997-01-09', 'Karol Bagh, New Delhi-556442', 'A456', 'New Delhi', 'YHX-00456.jpg')
+[October 8, 2020, 5:23 am] admin Login Successful. 
+[October 8, 2020, 5:36 am] UPDATE `election_info` SET `title`='Lok Sabha Elections 2020' ,`date`='2020-10-08' ,`start`='05:36' ,`end`='05:42' 
+[October 8, 2020, 5:36 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 5:36 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 5:36 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 5:39 am] UPDATE `election_info` SET `title`='Lok Sabha Elections 2020' ,`date`='2020-10-08' ,`start`='05:39' ,`end`='05:45' 
+[October 8, 2020, 5:39 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 5:39 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 5:39 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 10:31 am] Admin Logout Successful. 
+[October 8, 2020, 10:41 am] admin Login Successful. 
+[October 8, 2020, 10:42 am] UPDATE `election_info` SET `title`='LOK SABHA ELECTIONS' ,`date`='2020-10-08' ,`start`='10:44' ,`end`='10:46' 
+[October 8, 2020, 10:42 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 10:42 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 10:42 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 10:43 am] UPDATE `election_info` SET `title`='LOK SABHA ELECTIONS 2020' ,`date`='2020-10-08' ,`start`='10:43' ,`end`='10:48' 
+[October 8, 2020, 10:43 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 10:43 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 10:43 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 10:52 am] UPDATE `election_info` SET `title`='LOK SABHA ELECTION 20209' ,`date`='2020-10-08' ,`start`='10:54' ,`end`='10:57' 
+[October 8, 2020, 10:52 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 10:52 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 10:52 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 11:00 am] UPDATE `election_info` SET `title`='LOK SABHA ELECTION 2020' ,`date`='2020-10-08' ,`start`='11:00' ,`end`='12:00' 
+[October 8, 2020, 11:00 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[October 8, 2020, 11:00 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[October 8, 2020, 11:00 am] TRUNCATE TABLE `verification`
+[October 8, 2020, 11:07 am] INSERT INTO voters (VoterID, Pass, Name, Father_Name, Sex, DOB, Address, Part_No, City, Image) VALUES ('YHX-9681', 'ABC123456', 'Farhan Khan', 'Fazlur Rahman', 'Male', '1998-11-15', 'ALamganj, Patna-800007', 'A456', 'Patna', 'YHX-9681.jpg')
+[October 8, 2020, 11:12 am] UPDATE `voters` SET `Malicious` = '0' WHERE `VoterID`='YHX-9681'
+[October 8, 2020, 11:18 am] UPDATE `verification` SET `suspicious` = '1' WHERE `VoterID`='YHX-00123'
+[October 8, 2020, 11:22 am] Admin Logout Successful. 
+[November 14, 2020, 2:14 pm] admin Login Successful. 
+[November 14, 2020, 2:39 pm] Admin Logout Successful. 
+[November 19, 2020, 1:05 am] Admin Login Successful. 
+[February 25, 2021, 1:30 pm] admin Login Successful. 
+[February 25, 2021, 1:32 pm] Admin Logout Successful. 
+[March 9, 2021, 9:13 pm] admin Login Successful. 
+[March 9, 2021, 9:37 pm] Admin Logout Successful. 
+[March 9, 2021, 11:21 pm] admin Login Successful. 
+[March 9, 2021, 11:22 pm] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-09' ,`start`='23:23' ,`end`='00:27' 
+[March 9, 2021, 11:22 pm] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 9, 2021, 11:22 pm] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 9, 2021, 11:22 pm] TRUNCATE TABLE `verification`
+[March 9, 2021, 11:22 pm] Admin Logout Successful. 
+[March 9, 2021, 11:23 pm] admin Login Successful. 
+[March 9, 2021, 11:23 pm] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-09' ,`start`='23:23' ,`end`='23:59' 
+[March 9, 2021, 11:23 pm] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 9, 2021, 11:23 pm] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 9, 2021, 11:23 pm] TRUNCATE TABLE `verification`
+[March 9, 2021, 11:31 pm] admin Login Successful. 
+[March 9, 2021, 11:31 pm] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-09' ,`start`='23:31' ,`end`='23:59' 
+[March 9, 2021, 11:31 pm] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 9, 2021, 11:31 pm] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 9, 2021, 11:31 pm] TRUNCATE TABLE `verification`
+[March 9, 2021, 11:31 pm] Admin Logout Successful. 
+[March 9, 2021, 11:32 pm] admin Login Successful. 
+[March 9, 2021, 11:32 pm] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-09' ,`start`='23:33' ,`end`='23:59' 
+[March 9, 2021, 11:32 pm] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 9, 2021, 11:32 pm] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 9, 2021, 11:32 pm] TRUNCATE TABLE `verification`
+[March 9, 2021, 11:35 pm] admin Login Successful. 
+[March 9, 2021, 11:36 pm] Admin Logout Successful. 
+[March 9, 2021, 11:41 pm] admin Login Successful. 
+[March 9, 2021, 11:42 pm] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-09' ,`start`='23:41' ,`end`='23:59' 
+[March 9, 2021, 11:42 pm] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 9, 2021, 11:42 pm] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 9, 2021, 11:42 pm] TRUNCATE TABLE `verification`
+[March 10, 2021, 12:12 am] admin Login Successful. 
+[March 10, 2021, 12:12 am] UPDATE `election_info` SET `title`='Lok Sabha Elections 2021' ,`date`='2021-03-10' ,`start`='00:12' ,`end`='00:40' 
+[March 10, 2021, 12:12 am] UPDATE `voters` SET `Verification` ='0', `Facial_Verification` ='0', `Voting` ='0', `Malicious` ='0'
+[March 10, 2021, 12:12 am] UPDATE `candidates` SET `Total_Votes` ='0' 
+[March 10, 2021, 12:12 am] TRUNCATE TABLE `verification`
+[March 10, 2021, 12:12 am] Admin Logout Successful. 
